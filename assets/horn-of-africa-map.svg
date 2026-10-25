@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 690 774" role="img" aria-labelledby="t d" font-family="Inter, Helvetica, Arial, sans-serif">
+<title id="t">Map of Somaliland and its neighbors</title>
+<desc id="d">Simplified map of the Horn of Africa showing Somaliland, Somalia, Djibouti, Ethiopia, Eritrea, Kenya and Yemen, with the Gulf of Aden, Red Sea, Bab el-Mandeb and key cities.</desc>
+<defs>
+<pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#e9c46a"/><line x1="0" y1="0" x2="0" y2="7" stroke="#b5651d" stroke-width="3"/></pattern>
+<style>
+.sea{fill:#cfe3ee} .land{stroke:#ffffff;stroke-width:1.4;stroke-linejoin:round}
+.sl{fill:#2a9d8f} .so{fill:#9fb7c9} .dj{fill:#e76f51} .et{fill:#e8dcc4} .er{fill:#ddd2bb} .ke{fill:#e3d8c0} .ye{fill:#d9cbb0}
+.dis{fill:url(#hatch);stroke:#b5651d;stroke-width:1.2;stroke-dasharray:4 3;opacity:.9}
+.country{font-size:15px;font-weight:700;fill:#3b3b3b;letter-spacing:1.5px}
+.country-sl{font-size:16px;font-weight:800;fill:#ffffff;letter-spacing:1.5px}
+.water{font-size:13px;font-style:italic;fill:#3d6f8e;letter-spacing:2px}
+.city{font-size:12px;fill:#1d1d1d;font-weight:600;paint-order:stroke;stroke:#ffffff;stroke-width:3px}
+.note{font-size:11px;fill:#5a3410;font-weight:600;paint-order:stroke;stroke:#fff8e6;stroke-width:3px}
+.dot{fill:#1d1d1d;stroke:#fff;stroke-width:1.2} .star{fill:#ffd166;stroke:#1d1d1d;stroke-width:1} .port{fill:#264653;stroke:#fff;stroke-width:1.2}
+.route{fill:none;stroke:#3d6f8e;stroke-width:2;stroke-dasharray:6 5}
+.legend{font-size:12px;fill:#1d1d1d}
+</style></defs>
+<rect width="690" height="704" class="sea"/>
+<polygon points="234.6,0.0 239.2,27.6 250.7,69.0 264.5,137.1 274.6,167.4 322.0,165.6 346.4,161.5 391.0,138.0 460.0,110.4 534.5,81.0 598.0,59.8 667.0,32.2 690.0,23.0 690.0,0.0" class="land ye"/>
+<polygon points="258.5,165.1 241.0,151.8 193.2,110.4 151.8,73.6 89.7,32.2 64.4,0.0 0.0,0.0 0.0,87.4 46.0,85.1 82.8,82.8 115.0,87.4 151.8,105.8 188.6,142.6 225.4,176.2" class="land er"/>
+<polygon points="0.0,565.8 27.6,584.2 71.8,587.9 151.8,554.3 202.4,566.7 161.0,570.4 161.0,703.8 0.0,703.8" class="land ke"/>
+<polygon points="0.0,87.4 46.0,85.1 82.8,82.8 115.0,87.4 151.8,105.8 188.6,142.6 225.4,176.2 207.0,197.8 196.4,220.8 220.8,243.8 249.8,244.7 246.1,289.8 271.4,317.4 299.0,335.8 345.0,354.2 391.0,368.0 437.0,381.8 483.0,381.8 437.0,427.8 391.0,464.6 342.7,524.4 299.0,529.0 253.0,542.8 210.2,558.0 202.4,566.7 151.8,554.3 71.8,587.9 27.6,584.2 0.0,565.8" class="land et"/>
+<polygon points="258.5,165.1 268.2,176.2 266.3,199.2 247.5,207.5 234.6,215.3 246.1,217.1 259.9,216.2 264.5,222.6 249.8,244.7 220.8,243.8 196.4,220.8 207.0,197.8 225.4,176.2" class="land dj"/>
+<polygon points="529.0,231.4 569.0,222.2 609.5,199.2 633.9,205.6 627.9,234.6 639.4,269.6 625.6,271.4 616.4,317.4 593.4,345.0 566.7,382.7 529.0,450.8 507.4,503.7 464.6,556.6 418.6,607.2 359.7,655.5 322.0,680.8 289.8,703.8 161.0,703.8 161.0,570.4 202.4,566.7 210.2,558.0 253.0,542.8 299.0,529.0 342.7,524.4 391.0,464.6 437.0,427.8 483.0,381.8" class="land so"/>
+<polygon points="264.5,222.6 274.6,227.7 318.8,271.9 345.5,269.6 391.0,257.6 441.1,244.3 492.2,236.4 529.0,231.4 483.0,381.8 437.0,381.8 391.0,368.0 345.0,354.2 299.0,335.8 271.4,317.4 246.1,289.8 249.8,244.7" class="land sl"/>
+<polygon points="414.0,370.3 437.0,381.8 483.0,381.8 529.0,231.4 496.8,234.6 464.6,271.4 437.0,322.0 414.0,345.0" class="dis"/>
+<polyline class="route" points="151.8,0.0 225.4,105.8 271.4,172.5 368.0,184.0 506.0,170.2 690.0,142.6"/>
+<text x="142.6" y="418.6" text-anchor="middle" class="country">ETHIOPIA</text>
+<text x="96.6" y="59.8" text-anchor="middle" class="country">ERITREA</text>
+<text x="82.8" y="644.0" text-anchor="middle" class="country">KENYA</text>
+<text x="409.4" y="41.4" text-anchor="middle" class="country">YEMEN</text>
+<text x="515.2" y="446.2" text-anchor="middle" class="country">SOMALIA</text>
+<text x="368.0" y="301.3" text-anchor="middle" class="country-sl">SOMALILAND</text>
+<text x="204.7" y="186.3" text-anchor="middle" class="country">DJIBOUTI</text>
+<text x="464.6" y="184.0" text-anchor="middle" class="water">GULF OF ADEN</text>
+<text x="133.4" y="13.8" text-anchor="middle" class="water">RED SEA</text>
+<text x="602.6" y="565.8" text-anchor="middle" class="water">INDIAN</text>
+<text x="602.6" y="584.2" text-anchor="middle" class="water">OCEAN</text>
+<text x="278.3" y="149.5" text-anchor="start" class="note">Bab el-Mandeb</text>
+<path d="M301.8,303.0 L303.8,308.0 L308.8,308.0 L304.8,311.5 L306.3,317.0 L301.8,313.5 L297.3,317.0 L298.8,311.5 L294.8,308.0 L299.8,308.0 Z" class="star"/><text x="309.8" y="324.0" text-anchor="start" class="city">Hargeisa (capital)</text>
+<rect x="341.5" y="265.6" width="8" height="8" class="port"/><text x="353.5" y="263.6" text-anchor="start" class="city">Berbera (port)</text>
+<circle cx="453.6" cy="359.7" r="3.6" class="dot"/><text x="445.6" y="375.7" text-anchor="end" class="city">Las Anod</text>
+<circle cx="359.7" cy="655.5" r="3.6" class="dot"/><text x="351.7" y="659.5" text-anchor="end" class="city">Mogadishu</text>
+<circle cx="259.9" cy="216.2" r="3.6" class="dot"/><text x="253.89999999999998" y="207.2" text-anchor="end" class="city">Djibouti City</text>
+<circle cx="57.0" cy="334.4" r="3.6" class="dot"/><text x="64.0" y="338.4" text-anchor="start" class="city">Addis Ababa</text>
+<circle cx="346.4" cy="161.5" r="3.6" class="dot"/><text x="353.4" y="156.5" text-anchor="start" class="city">Aden</text>
+<circle cx="307.7" cy="42.8" r="3.6" class="dot"/><text x="314.7" y="46.8" text-anchor="start" class="city">Sana'a</text>
+<circle cx="537.3" cy="230.9" r="3.6" class="dot"/><text x="541.3" y="222.9" text-anchor="start" class="city">Bosaso</text>
+<text x="278.3" y="195.5" class="note">◄ U.S. &amp; China bases</text>
+<text x="314.7" y="60.8" class="note">Houthi-held</text>
+<text x="490.4" y="322.0" class="note">Disputed</text><text x="490.4" y="336.0" class="note">(Las Anod area)</text>
+<g transform="translate(654,644)"><circle r="18" fill="#ffffff" opacity=".85"/><path d="M0,-15 L5,2 L0,-2 L-5,2 Z" fill="#1d1d1d"/><text y="14" text-anchor="middle" font-size="10" font-weight="700">N</text></g>
+<g transform="translate(16,682)"><rect x="-6" y="-16" width="152.88288288288288" height="28" rx="5" fill="#ffffff" opacity=".85"/><line x1="0" y1="0" x2="82.88288288288288" y2="0" stroke="#1d1d1d" stroke-width="3"/><line x1="0" y1="-5" x2="0" y2="5" stroke="#1d1d1d" stroke-width="2"/><line x1="82.88288288288288" y1="-5" x2="82.88288288288288" y2="5" stroke="#1d1d1d" stroke-width="2"/><text x="90.88288288288288" y="4" class="legend">≈ 200 km</text></g>
+<rect x="12" y="715" width="14" height="14" rx="3" class="sl"/><text x="32" y="726" class="legend">Somaliland (claimed borders)</text>
+<rect x="221.20000000000002" y="715" width="14" height="14" rx="3" class="so"/><text x="241.20000000000002" y="726" class="legend">Somalia</text>
+<rect x="296.0" y="715" width="14" height="14" rx="3" class="dj"/><text x="316.0" y="726" class="legend">Djibouti</text>
+<rect x="377.2" y="715" width="14" height="14" rx="3" class="et"/><text x="397.2" y="726" class="legend">Neighboring countries</text>
+<rect x="12" y="743" width="14" height="14" rx="3" fill="url(#hatch)"/><text x="32" y="754" class="legend">Disputed area</text>
+<line x1="140" y1="750" x2="166" y2="750" class="route"/><text x="172" y="754" class="legend">Main shipping route (Suez ↔ Indian Ocean)</text>
+<text x="680" y="754" text-anchor="end" class="legend" fill="#666" font-style="italic">Simplified; borders approximate</text>
+</svg>

@@ -1,0 +1,15 @@
+{
+  "site_title": "Somaliland Debate Prep",
+  "pages": [
+    {"file": "index.html",       "nav": "Home"},
+    {"file": "basics.html",      "nav": "Basics",          "pager": "Topic Basics"},
+    {"file": "history.html",     "nav": "History",         "pager": "History"},
+    {"file": "neighbors.html",   "nav": "Neighbors &amp; Map", "pager": "Neighbors &amp; Map"},
+    {"file": "affirmative.html", "nav": "Affirmative",     "pager": "Affirmative"},
+    {"file": "negative.html",    "nav": "Negative",        "pager": "Negative"},
+    {"file": "evidence.html",    "nav": "Evidence",        "pager": "Evidence Cards"},
+    {"file": "cross-ex.html",    "nav": "Cross-Ex",        "pager": "Cross-Ex Practice"},
+    {"file": "skills.html",      "nav": "Skills",          "pager": "Debate Skills"},
+    {"file": "sources.html",     "nav": "Sources",         "pager": "Sources"}
+  ]
+}
