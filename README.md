@@ -8,16 +8,18 @@ It covers both sides: background, history, a map of the neighbors, the strongest
 
 ## View it
 
-Once GitHub Pages is turned on, the site is at **https://swainsa1.github.io/somaliland-debate-prep/**
+Live site: **https://swainsa1.github.io/somaliland-debate-prep/**
 
-To turn it on: **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `main` / `(root)` → Save.**
+## PDF version
+
+If the website is blocked, use the PDFs in [`pdf-version/`](pdf-version/): one per page, plus [`complete-guide.pdf`](pdf-version/complete-guide.pdf) with everything.
 
 ## How it's built
 
 Plain static HTML and CSS, with no build step:
 
 - `*.html`: one page per topic (start at `index.html`)
-- `assets/style.css`: shared design, with dark mode and print styles
+- `assets/style.css`: shared dark purple design, with iPad and print/PDF styles
 - `assets/horn-of-africa-map.svg`: simplified map of the region
 - `site.json`: page order and navigation labels
 - `.nojekyll`: tells GitHub Pages to serve the files as-is

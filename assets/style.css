@@ -351,21 +351,39 @@ details.practice .answer > :last-child { margin-bottom: 0; }
   .pager { padding: 0 16px; }
 }
 
-/* ---------- Print (Letter, ink-friendly) ---------- */
-@page { size: letter; margin: 0.6in; }
+/* ---------- Print / PDF (Letter, same dark purple look as the site) ---------- */
+@page { size: letter; margin: 0.55in 0.6in 0.6in; background: #0e0820; }
+.print-only { display: none; }
 @media print {
-  :root { --text: #000; --muted: #444; --surface: #fff; --border: #ccc; --border-strong: #999; --glow: none; --glow-strong: none; }
-  body { font-size: 11.5pt; background: #fff !important; color: #000; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  /* glows and blurs turn into solid squares in PDFs */
+  *, *::before, *::after { box-shadow: none !important; text-shadow: none !important; filter: none !important; }
+  details.practice summary::before { transform: none !important; }
+  .grid { display: grid; }
+  .tile { break-inside: avoid; }
+  :root { --surface: #1d1238; --glow: none; --glow-strong: none; }
+  html, body { background: #0e0820 !important; }
+  body { font-size: 11pt; line-height: 1.55; }
   body::before, body::after { display: none; }
   .site-header, .site-nav, .pager, .site-footer, .no-print { display: none !important; }
+  .print-only { display: block; }
   main { max-width: none; padding: 0; }
   main > * { animation: none !important; }
-  h1, .brand { background: none; -webkit-text-fill-color: #000; color: #000; }
-  h2, h3, strong, em, .evidence .tag, .evidence .text, details.practice .answer { color: #000; }
-  h2 { break-after: avoid; border-image: none; border-top: 1px solid #ccc; }
-  .card, .side, .evidence, .callout, figure.map, .timeline li, details.practice, .table-wrap { break-inside: avoid; background: #fff !important; box-shadow: none !important; backdrop-filter: none; }
-  th { background: #eee; color: #000; }
-  mark { background: #fff2a8; color: #000; box-shadow: none; }
-  .timeline .what { background: #fff; }
-  a { color: #000; text-decoration: none; }
+  h1 { font-size: 26pt; }
+  h2 { font-size: 17pt; margin-top: 26px; padding-top: 14px; break-after: avoid; }
+  h3 { break-after: avoid; }
+  .card, .side, .evidence, .callout, figure.map, .timeline li, details.practice, .table-wrap, .exchange li { break-inside: avoid; }
+  .card, .tile, .table-wrap, details.practice, .exchange li, .timeline .what, figure.map, .evidence {
+    background: #1d1238 !important; box-shadow: none !important; backdrop-filter: none; -webkit-backdrop-filter: none;
+  }
+  .side.aff { background: #0f2340 !important; }
+  .side.neg { background: #33102a !important; }
+  .callout.tip { background: #241a4d !important; }
+  .callout.warn { background: #2e2213 !important; }
+  .callout.verify { background: #2e1540 !important; }
+  .side { backdrop-filter: none; -webkit-backdrop-filter: none; }
+  .tile:hover { transform: none; }
+  .print-footer { margin-top: 28px; padding-top: 10px; border-top: 1px solid var(--border); font-size: 9pt; color: var(--muted); text-align: center; }
+  figure.map img { max-height: 6.4in; width: auto; margin: 0 auto; }
+  .page-break { break-before: page; }
 }
